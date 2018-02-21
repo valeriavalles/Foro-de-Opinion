@@ -1,1 +1,11 @@
 
+.tema-general{
+  border: 3px solid #dee2e6;
+  padding: 5px;
+  margin-bottom: 5px;	
+}
+
+.img-footer{
+ display: none;
+}
+

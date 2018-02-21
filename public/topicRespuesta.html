@@ -1,0 +1,60 @@
+<!-- Mostrar en este HTML las respuestas de cada topic -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- link a bootstrap 4 -->
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <!-- link a fontawesome  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+        <!-- respuestas -->
+
+    <section>
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-10 col-xs-10 col-md-10">
+            <h3>Respuesta:</h3>
+            <div id="create-respuesta"></div>
+           </div>
+        </div>
+      </div>
+    </section>
+   
+    <!-- crear respuesta -->
+    <section>
+     <div class="container">
+      <div class="row">
+      <div class="col-lg-4 col-xs-10 col-md-4">
+        <input type="text" id="author" class="form-control input-sm" placeholder="author">
+      </div>
+      <div class="col-lg-6 col-xs-10 col-md-6">
+          <input type="text" id="message" class="form-control input-sm"  placeholder="text">
+          <br>
+          <button class="btn btn-primary" id="crearrespuesta">Crear Respuesta</button>
+        </div>
+      </div>
+     </div> 
+    </section> 
+      
+      <section >
+        <div class="container">
+         <div class="row">
+           <div class="col-lg-10 col-xs-10 col-md-10">
+             <div class="respuestas"></div>
+           </div>
+         </div>
+        </div>        
+      </section>
+     <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <!-- JS de bootstrap -->
+    <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="js/functions.js"></script>
+    <script src="js/topicRespuesta.js"></script>
+  </body>
+</html>
