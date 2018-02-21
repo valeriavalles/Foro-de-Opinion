@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!-- Evita escala zoom -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- link a bootstrap 4 -->
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <!-- link a fontawesome  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Título de pestaña -->
+    <title>FORO</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+
+      </nav>
+
+    </header>
+
+    <main>
+      <section>
+        <div class="container">
+           <div class="row">
+             <div id="">
+               <h1 class="center">Foro cool</h1>
+              <form> 
+               <div class="input-group">
+                <span class="input-group-addon " id="basic-addon1"><i class="fa fa-search"></i></span>
+                <input type="text" class="form-control" id="search" placeholder="Buscar tema" aria-describedby="basic-addon1">               
+              </div>
+          	 </form>
+              <br>               
+              <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="creartema-btn">Crear tema</button>
+
+             </div>
+            </div>           
+         </div>        
+      </section>
+       <br>
+     
+      <section class="">
+         <div class="container">
+           <div class="row">
+             <div id="todos-los-temas" class="col-xs-10 col-md-8 col-lg-10">
+               
+              
+
+             </div>
+            </div>           
+         </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="container">
+           <div class="row">
+             <img id="footer-gif" class="img-responsive" src="https://www.multicaja.cl/paypal/assets/cargando.gif">
+             <br>
+             
+           </div>
+           <p class="text-center">Copyright&copy;</p>
+      </div>     
+      
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">TEMA</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>por:</p>
+            <input type="text" id="input-nombre">
+            <p>mensaje:</p>
+            <input type="text" id="input-mensaje">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary" id="guardar">Guardar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- jQuery -->
+    <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
+    <!-- jQuery UI -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- JS de bootstrap -->
+    <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
+    <!-- JS de proyecto -->
+    <script type="text/javascript" src="js/load.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- <script type="text/javascript" src="js/prueba.js"></script> -->
+  </body>
+</html>
